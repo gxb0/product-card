@@ -22,7 +22,7 @@ main{
     display: flex;
     width: 18.75rem;
     height: 450px;
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
     border-radius: 10px 0px 0px 10px;
 }
