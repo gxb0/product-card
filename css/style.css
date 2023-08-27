@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2EAE2;
+   
+    height: 100vh;
+}
+main{
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+.card{
+    display: flex;
+    width: 18.75rem;
+    height: 450px;
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.texto{
+    width: 92px;
+    margin-top: 14px;
+    padding-left: 30px;
+}
+.texto h3{
+    display: flex;
+    color: #6C7289;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    letter-spacing: 5px; 
+}
+
+.texto h1{
+    display: flex;
+    width: 14.75rem;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+}
+
+.texto p{
+    display: flex;
+    width: 14.8125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+.texto h2{
+    display: flex;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    color: #3D8168;
+    margin-bottom: 5px;
+}
+
+.precio-tachado{
+    display: flex;
+    color: #6C7289;
+}
+
+.button button{
+    width: 14.75rem;
+   background-color: #3D8168;
+   color: white;
+   height: 48px;
+   border-radius: 0.5rem;
+   border-style: none;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.button svg{
+    
+    margin-right: 1em;
+
+}
+@media screen and (max-width: 375px) {
+  main{
+        display: flex;
+        flex-direction: column;
+        max-width: 343px;
+        height: 611px;
+  }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        height: 240px;
+        background-image: url(/images/image-product-mobile.jpg);
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .texto{
+   
+        padding-left: 24px;
+        
+    }
+ 
+    .texto h1{
+        display: flex;
+        width: 295px;
+        margin: 0px;
+    }
+    .texto p{
+        display: flex;
+        width: 295px;
+    }
+
+    .texto h2{
+        display: flex;
+        width: 127px;
+    }
+
+    .precio-tachado{
+        margin-top: 0.5em;
+        margin-left: 1.188em;
+        text-decoration: line-through;
+    }
+
+    .button button{
+        width: 18.4375rem;
+    }
+
+}
